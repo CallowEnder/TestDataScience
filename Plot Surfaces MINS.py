@@ -9,7 +9,7 @@ from mpl_toolkits.mplot3d import Axes3D
 # The function f will be plotted as a surface, and the constraint g will be visualized as a curve
 # on the surface of f. 
 
-# To address the constraints, a new function called the Lagrangian is formed. 
+# To address the constraints, a new function called the LAGRANGIAN is formed. 
 # For a single constraint g(x, y, z) = 0, the Lagrangian is defined as:
 # L(x, y, z, λ) = f(x, y, z) + λg(x, y, z), where λ is the Lagrange multiplier:
 # (i.e., ∂L/∂g = λ).  
